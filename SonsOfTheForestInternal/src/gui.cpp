@@ -178,7 +178,7 @@ void Menu(bool render)
     static ImVec4 inactive = ImColor(25, 25, 25, 255).Value;
 
     ImGui::SetNextWindowSize(ImVec2(WIDTH, HEIGHT), ImGuiCond_Once);
-    ImGui::Begin("Cheat menu | SpookySec#6710", &::render, windowFlags);
+    ImGui::Begin("Cheat menu | PoopySec#6710", &::render, windowFlags);
 
     if (ImGui::BeginTable("main", 2, tableFlags))
     {
